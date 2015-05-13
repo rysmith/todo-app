@@ -1,11 +1,37 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="styles/main.css"/>
         <title>To Do App</title>
-
     </head>
     <body>
+    <h1>to do list</h1>
+    <p>Items remaining: </p>
+
+    <div class="container">
+        <div>
+            <input id="add-item" type="text" placeholder="New list item I am adding"><button id="add-button">Add</button>
+        </div>
+        <div>
+            <div class="head">
+                <div class="left col-one">
+                    <h5>Description</h5>
+                </div>
+                <div class="left col-two">
+                    <h5>Completed</h5>
+                </div>
+                <div class="left col-three">
+                    <h5>Remove</h5>
+                </div>
+            </div>
+            <div class="body" id="append">
+
+            </div>
+        </div>
+
+
+    </div>
 
     <script type="text/javascript" src="js/app.js"></script>
     </body>

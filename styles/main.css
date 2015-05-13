@@ -1,0 +1,27 @@
+body {
+    background: url("../img/tiny_grid.png");
+}
+
+.left {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid black;
+}
+
+#append {
+    overflow: auto;
+}
+
+.col-one {
+    width: 600px;
+}
+
+.col-two {
+    width: 50px;
+}
+
+.col-three {
+    width: 50px;
+}
+
